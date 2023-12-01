@@ -15,7 +15,8 @@ def star2(data):
 
 if __name__ == "__main__":
     # data provided by AoC
-    input_data = open("input_data.txt").read
+    # replace the two hashes with the day 01 to 24
+    input_data = open("input_data/input_d##.txt").read
 
     result = star1(input_data)
     print(f"Result for Star 1: {result}")
